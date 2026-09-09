@@ -42,7 +42,7 @@ const $=s=>document.querySelector(s); const $$=s=>[...document.querySelectorAll(
 // Google AI Studio에서 발급한 Gemini API Key를 입력하면 됩니다.
 // ============================================================
 const GEMINI_API_KEY = "AQ.Ab8RN6InTtnbnzhL_h8sOSaGrjYbG2ocbdSJdE6AmVBh-OcEBQ";
-const GEMINI_MODEL = "gemini-2.5-flash";
+const GEMINI_MODEL = "gemini-3.6-flash";
 
 const stages=['서류접수','서류검토','1차면접','2차면접','최종합격','불합격'];
 const demoJobs=[{id:1,title:'HR Manager',dept:'인사팀',location:'서울 강남',status:'진행중',open:'2026-09-01',close:'2026-09-30',jd:'인사제도 기획 및 운영\n채용, 평가, 보상, 급여, 노무관리\nKPI/MBO 성과관리\nHR 시스템 구축 및 프로세스 개선\n노동관계법령 및 취업규칙 이해\n조직문화 및 인력계획',keywords:['HR','인사기획','채용','평가','보상','급여','노무','KPI','MBO','HRIS','노동법','조직문화']},{id:2,title:'경영지원 HRBP',dept:'경영관리',location:'판교',status:'진행중',open:'2026-09-05',close:'2026-10-05',jd:'HRBP 역할로 사업부 리더와 협업\n인력계획과 인건비 관리\n조직진단 및 제도개선\n데이터 기반 HR 지표 관리\n채용 및 온보딩',keywords:['HRBP','인력계획','인건비','조직진단','HR Analytics','채용','온보딩']}];
